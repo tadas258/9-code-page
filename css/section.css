@@ -1,0 +1,44 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.left-side {
+    display: flex;
+    width: 57%;
+    justify-content: center;
+}
+.left-side > img {
+    height: 450px;
+    margin-top: 50px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+  
+    padding-right: 70px;
+    padding-top: 130px;
+}
+.top-text {
+    font-size: 27px;
+    font-weight: 200;
+}
+.big-text {
+    font-size: 50px;
+    line-height: 45px;
+    margin-top: 15px;
+    color: #303669;
+}
+.par {
+    margin-top: 30px;
+    width: 90%;
+}
+.right-side > a {
+    width: 140px;
+    padding: 12px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #FF3E81;
+}
