@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-a {
+.links {
     display: inline-block;
     font-size: 15px;
     padding: 10px;
@@ -30,11 +30,11 @@ a {
 
 }
 
-a:hover {
+.links:hover {
     box-shadow:  0 2px rgb(104, 102, 102);
     
 }
-a:nth-last-of-type(1) {
+.links:nth-last-of-type(1) {
     float: right;
     margin-right: 90px;
     background-color: #3A88EC;
@@ -47,14 +47,15 @@ a:nth-last-of-type(1) {
     width: 120px;
     border-radius: 25px;
 }
-a:nth-last-of-type(1):hover {
-    box-shadow:  0 5px 8px rgb(104, 102, 102);
-    transform: translateY(3px);
+.links:nth-last-of-type(1):hover {
+    transform: translateY(1px);
+    background-color: #FF3E81;
+    box-shadow: none;
 }
 
 
 @media (max-width: 1200px) {
-    a {
+    .links {
         display: inline-block;
         font-size: 15px;
         padding: 10px;

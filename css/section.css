@@ -35,10 +35,17 @@
     margin-top: 30px;
     width: 90%;
 }
-.right-side > a {
+.right-side > .main-link {
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
     width: 140px;
     padding: 12px;
     margin-top: 40px;
     text-align: center;
     background-color: #FF3E81;
+}
+.right-side > .main-link:hover {
+    transform: translateY(1px);
+    background-color: #3A88EC;
 }
