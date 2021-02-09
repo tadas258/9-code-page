@@ -1,8 +1,10 @@
+
 .main {
     display: inline-block;
-    position: absolute;
     width: 1200px;
     margin-top: 40px;
+    position: absolute;
+    overflow: hidden;
     left:50%;
     transform: translate(-50%);
 }

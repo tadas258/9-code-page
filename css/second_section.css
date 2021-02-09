@@ -24,6 +24,7 @@
     margin-top: 25px;
    
 }
+
 .accordion-buttons > .accordion {
     display: flex;
     align-items: center;
@@ -51,6 +52,7 @@
   color: white;
   float: right;
   margin-left: 5px;
+
 }
 
 
@@ -70,6 +72,7 @@
     overflow: hidden;
     padding: 10px 20px;
 }
+
 .second-right {
     display: flex;
     width: 55%;
