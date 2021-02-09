@@ -38,6 +38,17 @@
     box-shadow: 1px 1px 20px 1px rgba(128, 128, 128, 0.13);
     cursor: pointer;
 }
+.prices > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    border-radius: 25px;
+    height: 30px;
+    width: 90px;
+    background-color: var(--blue-buttons);
+    color: white;
+}
 .prices:hover {
     box-shadow: 1px 1px 80px 1px rgba(158, 158, 158, 0.76);
 }
@@ -85,10 +96,13 @@
 }
 .prices > ul {
     font-size: 15px;
+    list-style-type: circle;
+    
 }
 .prices > ul > li {
     margin: 20px 0;
 }
+BLET
 
 .prices > .prices-link {
     text-decoration: none;
