@@ -32,7 +32,7 @@
     margin-top: 20px;
     width: 100%;
 }
-.third-section-link {
+.link {
     margin-top: 40px;
     text-decoration: none;
     color: white;
@@ -43,7 +43,7 @@
     text-align: center;
     background-color: #FF3E81;
 }
-.third-section-link:hover {
+.link:hover {
     transform: translateY(1px);
     background-color: #3A88EC;
 

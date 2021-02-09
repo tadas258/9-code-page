@@ -1,0 +1,113 @@
+.stories-section {
+    margin-bottom: 200px;
+}
+
+
+.stories-text {
+    text-align: center;
+    width: 100%;
+}
+.stories-text > h2 {
+    font-size: 20px;
+}
+.stories-text > h3 {
+    font-size: 55px;
+    margin-top: 15px;
+    color: var(--font-color);
+}
+.stories-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0 40px;
+    width: 340px;
+    height: 550px;
+    box-shadow: 1px 1px 20px 1px rgba(128, 128, 128, 0.13);
+    cursor: pointer;
+}
+.stories:hover {
+    box-shadow: 1px 1px 80px 1px rgba(158, 158, 158, 0.76);
+}
+.stories:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    padding: 0 40px;
+    margin-top: 25px;
+    width: 335px;
+    height: 500px;
+}
+.stories:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    padding: 0 40px;
+    margin-top: 25px;
+    width: 335px;
+    height: 500px;
+
+}
+.stories > img {
+    margin-bottom: 25px;
+}
+
+.stories> h2 {
+    font-size: 22px;
+    color: var(--font-color);
+    margin-bottom: 10px;
+    
+}
+.stories > h3 {
+    color: rgba(128, 128, 128, 0.521);
+    margin-bottom: 15px;
+}
+.stories > p {
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+.stories-link {
+    text-decoration: none;
+    color: var(--blue-buttons);
+    font-size: 18px;
+}
+.stories-link:hover {
+    transform: translateY(1px);
+    color: #FF3E81;
+}
+
+
+.stories-link-middle {
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #3A88EC;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 20px;
+    width: 140px;
+    border-radius: 25px;
+}
+.stories-link-middle:hover {
+    transform: translateY(1px);
+    background-color: #FF3E81;
+    box-shadow: none;
+}

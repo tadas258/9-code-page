@@ -1,0 +1,35 @@
+.last-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+.last-section-left {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.last-section-right {
+    width: 50%;
+}
+
+.last-section-right > img {
+    height: 450px;
+}
+.last-section-left > h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.last-section-left > h3 {
+    font-size: 50px;
+    color: var(--font-color);
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.last-section-left > p {
+    font-size: 22px;
+    font-weight: 200;
+}
+.last-section-left > h
